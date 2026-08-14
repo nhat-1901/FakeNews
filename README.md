@@ -64,10 +64,10 @@ FakeNews/
 
 | Mô hình | Accuracy | Precision | Recall | F1-Score |
 |---|---|---|---|---|
-| Naive Bayes | 89,99% | 100,00% | 65,49% | 79,15% |
-| SVM | 96,78% | 98,09% | 90,68% | 94,24% |
-| LSTM | 93,64% | 92,12% | 85,39% | 88,63% |
-| **PhoBERT** | **97,00%** | 97,85% | 91,69% | **94,67%** |
+| Naive Bayes | 0.8999 | 1.0000 | 0.6549 | 0.7915 |
+| SVM | 90.9678 | 0.9809 | 0.9068 | 0.9424 |
+| LSTM | 0.9364 | 0.9212 | 0.8539 | 0.8863 |
+| **PhoBERT** | **0.9700** | 0.9785 | **0.9169** | **0.9467** |
 
 PhoBERT đạt hiệu quả cao nhất trong 4 mô hình, xác nhận lợi thế của việc tận dụng tri thức ngôn ngữ từ giai đoạn tiền huấn luyện quy mô lớn so với việc học biểu diễn ngôn ngữ từ đầu.
 
