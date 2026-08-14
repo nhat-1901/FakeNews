@@ -36,12 +36,12 @@ Dữ liệu văn bản thuần túy (không xử lý hình ảnh/video/âm thanh
 ```
 FakeNews/
 ├── Đồ_án_FakeNews.ipynb        
-├── data/
+├── Dataset/
 │   ├── cleaned_dataset.csv     # Dữ liệu đã làm sạch (13.679 mẫu)
 │   ├── train_split.csv         # Tập huấn luyện (10.943 mẫu)
 │   ├── val_split.csv           # Tập kiểm định (1.368 mẫu)
 │   └── test_split.csv          # Tập kiểm tra (1.368 mẫu)
-├── results/
+├── Results/
 │   ├── baseline_results.csv              # Kết quả Naive Bayes, SVM
 │   ├── phobert_results.csv               # Kết quả PhoBERT
 │   ├── eda_overview.png                  # Biểu đồ phân tích dữ liệu (EDA)
