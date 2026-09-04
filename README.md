@@ -7,7 +7,6 @@ Dự án ứng dụng mô hình học sâu **PhoBERT** (fine-tuned) kết hợp 
 ## 📌 Tính Năng Chính
 - **Phân loại nhị phân chính xác cao:** Phân biệt văn bản An toàn (Nhãn 0) và Độc hại/Lừa đảo (Nhãn 1).
 - **Đọc hiểu ngữ cảnh tiếng Việt:** Xử lý tốt rào cản từ ghép, teencode, cố tình viết sai chính tả.
-- **Hiệu năng cao:** F1-Score đạt **94.67%**, thời gian phản hồi **< 0.5s/request**.
 - **Kiến trúc phân tách:** Backend RESTful API (FastAPI) và Giao diện Web trực quan (Streamlit).
 
 ---
