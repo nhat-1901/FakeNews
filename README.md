@@ -26,7 +26,7 @@ Dữ liệu văn bản thuần túy (không xử lý hình ảnh/video/âm thanh
 4. Phân tích khám phá dữ liệu (EDA)
 5. Trích xuất đặc trưng (TF-IDF cho Naive Bayes/SVM; embedding học từ đầu cho LSTM; tokenizer PhoBERT cho PhoBERT)
 6. Chia tập Train/Validation/Test (80/10/10, có phân tầng theo nhãn)
-7. Xây dựng và huấn luyện các mô hình baseline (Naive Bayes, SVM) và mô hình đề xuất (LSTM, PhoBERT)
+7. Xây dựng và huấn luyện các mô hình baseline (Naive Bayes, SVM, LSTM) và mô hình đề xuất (PhoBERT)
 8. Tối ưu siêu tham số (GridSearchCV cho Naive Bayes/SVM; Optuna cho PhoBERT)
 9. Đánh giá mô hình (Accuracy, Precision, Recall, F1-Score, Confusion Matrix)
 10. So sánh hiệu năng các mô hình và đóng gói ứng dụng
