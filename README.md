@@ -34,9 +34,28 @@ Dữ liệu văn bản thuần túy (không xử lý hình ảnh/video/âm thanh
 ---
 
 ## 2. Mô tả các thành phần thư mục trong bộ dữ liệu
-FakeNews/ ├── backend_main.py # FastAPI server phục vụ mô hình ├── frontend_app.py # Giao diện Web Streamlit ├── requirements.txt # Thư viện phụ thuộc ├── README.md # Báo cáo tổng quan đề tài ├── WEBAPP_GUIDE.md # Hướng dẫn chạy Web App Demo │ ├── Đồ_án_FakeNews.ipynb # Notebook toàn bộ quy trình thực nghiệm │ ├── Dataset/ (hoặc data/) │ ├── cleaned_dataset.csv # Dữ liệu đã làm sạch (13.679 mẫu) │ ├── train_split.csv # Tập huấn luyện (10.943 mẫu) │ ├── val_split.csv # Tập kiểm định (1.368 mẫu) │ └── test_split.csv # Tập kiểm tra (1.368 mẫu) │ └── Results/ (hoặc results/) ├── baseline_results.csv # Kết quả Naive Bayes, SVM ├── phobert_results.csv # Kết quả PhoBERT ├── eda_overview.png # Biểu đồ phân tích dữ liệu (EDA) ├── model_comparison_chart_decimal.png # Biểu đồ so sánh 4 mô hình ├── cm_naive_bayes.png # Confusion Matrix — Naive Bayes └── cm_svm.png # Confusion Matrix — SVM
-
----
+FakeNews/
+├── backend_main.py          # FastAPI server phục vụ mô hình
+├── frontend_app.py         # Giao diện Web Streamlit
+├── requirements.txt        # Thư viện phụ thuộc
+├── README.md               # Báo cáo tổng quan đề tài
+├── WEBAPP_GUIDE.md         # Hướng dẫn chạy Web App Demo
+│
+├── Đồ_án_FakeNews.ipynb    # Notebook toàn bộ quy trình thực nghiệm
+│
+├── Dataset/ (hoặc data/)
+│   ├── cleaned_dataset.csv # Dữ liệu đã làm sạch (13.679 mẫu)
+│   ├── train_split.csv     # Tập huấn luyện (10.943 mẫu)
+│   ├── val_split.csv       # Tập kiểm định (1.368 mẫu)
+│   └── test_split.csv      # Tập kiểm tra (1.368 mẫu)
+│
+└── Results/ (hoặc results/)
+    ├── baseline_results.csv              # Kết quả Naive Bayes, SVM
+    ├── phobert_results.csv               # Kết quả PhoBERT
+    ├── eda_overview.png                  # Biểu đồ phân tích dữ liệu (EDA)
+    ├── model_comparison_chart_decimal.png # Biểu đồ so sánh 4 mô hình
+    ├── cm_naive_bayes.png                # Confusion Matrix — Naive Bayes
+    └── cm_svm.png                        # Confusion Matrix — SVM
 
 ## 3. Các mô hình được xây dựng và so sánh
 
