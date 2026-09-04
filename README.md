@@ -57,17 +57,6 @@ streamlit run frontend_app.py
 
 ---
 
-## 📊 Kết Quả Đánh Giá Mô Hình
-
-| Mô hình | Accuracy | Precision | Recall | F1-Score |
-| :--- | :---: | :---: | :---: | :---: |
-| Naive Bayes | 89.99% | 100.00% | 65.49% | 79.15% |
-| LSTM | 93.64% | 92.12% | 85.39% | 88.63% |
-| SVM (TF-IDF) | 96.78% | 98.09% | 90.68% | 94.24% |
-| **PhoBERT (Đề xuất)** | **97.00%** | **97.85%** | **91.69%** | **94.67%** |
-
----
-
 ## 👨‍💻 Tác Giả
 - **Sinh viên:** Nguyễn Đức Nhật
 - **Giảng viên hướng dẫn:** Thầy Phạm Đình Tài
